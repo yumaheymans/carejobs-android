@@ -21,7 +21,7 @@ SHA-256 of the 1.0.0 APK:
 
 - Package: `now.carejobs.app`, version 1.0.0 (version code 1), minimum Android 5.0 (API 21)
 - Built as a Trusted Web Activity of https://carejobs.now with [PWABuilder](https://www.pwabuilder.com); the site's [Digital Asset Links](https://carejobs.now/.well-known/assetlinks.json) file verifies the app
-- Permissions: internet only. No location, no contacts, no notifications.
+- Permissions: none. It asks for no internet, location, contacts or notification permission: the pages open in your installed Chrome (or another browser that supports Trusted Web Activities).
 - Privacy policy: https://carejobs.now/legal/privacy
 - Support: hello@carejobs.now
 
